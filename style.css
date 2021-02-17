@@ -1,0 +1,21 @@
+nav {
+    background-color: dimgray;
+    height: 100px;
+  }
+
+ul {
+   position: absolute;
+   margin-top: 20px;
+}
+
+li, img {
+    background-color: dodgerblue;
+    display: inline-flex;
+    border: solid black;
+    width: 200px;
+    height: 70px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
