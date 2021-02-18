@@ -80,7 +80,26 @@ button:hover {
     display: inline;
 }
 
+.leftimage {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
 .nexttotext {
     display: inline;
     margin-left: 40px;
+}
+
+.flexcontainer {
+    display: flex
+}
+
+.rightofimage {
+    flex-direction: column;
+    width: 420px;
+}
+
+p {
+    max-height: 350px;
+    overflow: auto;
 }
