@@ -1,21 +1,86 @@
-nav {
-    background-color: dimgray;
+
+footer {
+    background: gray;
     height: 100px;
-  }
+    width: 960px;
+    margin-left: 40px;
+}
 
 ul {
-   position: absolute;
-   margin-top: 20px;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 300px;
+    list-style: none;
 }
 
-li, img {
-    background-color: dodgerblue;
-    display: inline-flex;
-    border: solid black;
-    width: 200px;
-    height: 70px;
+li {
+    float: left;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    background-color: gray;
+    height: 100px;
+    width: 960px;
+    margin-bottom: 20px;
     margin-left: 40px;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
+nav a {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+nav a:hover {
+   background-color: rgb(238, 152, 120); 
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    background-color: rgb(238, 152, 120);
+    color: black;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: black;
+}
+
+#big {
+    margin-left: 40px;
+}
+
+#three {
+    margin-left: 40px;
+}
+
+.threepics {
+    margin-right: 25px;
+}
+
+#lastrow {
+    margin-left: 40px;
+    display: inline;
+}
+
+.nexttotext {
+    display: inline;
+    margin-left: 40px;
+}
