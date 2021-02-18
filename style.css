@@ -2,8 +2,6 @@
 footer {
     background: gray;
     height: 100px;
-    width: 960px;
-    margin-left: 40px;
 }
 
 ul {
@@ -17,14 +15,16 @@ li {
     float: left;
 }
 
+header {
+    display: block
+}
+
 nav {
     text-align: center;
     display: block;
     background-color: gray;
     height: 100px;
-    width: 960px;
     margin-bottom: 20px;
-    margin-left: 40px;
 }
 
 nav a {
@@ -81,6 +81,7 @@ button:hover {
 }
 
 .leftimage {
+    margin-top: 15px;
     margin-left: 40px;
     margin-right: 30px;
 }
@@ -100,6 +101,14 @@ button:hover {
 }
 
 p {
+    border: 3px solid black;
     max-height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     overflow: auto;
+}
+
+.calltoaction {
+    padding-bottom: 10px;
 }
